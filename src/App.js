@@ -10,6 +10,10 @@ import UseEffectThree from './components/06_useEffect/UseEffectThree';
 import UseEffectFour from './components/07_useEffect/UseEffectFour';
 import DataFetching from './components/08_dataFetching/DataFetching';
 import DataFetchingTwo from './components/09_dataFetching/DataFetchingTwo';
+import UserContextA from './components/10_useContext/UserContextA';
+
+export const firstName = React.createContext();
+export const lastName = React.createContext();
 
 function App() {
   return (
@@ -32,7 +36,12 @@ function App() {
 
       {/* <DataFetching /> */}
 
-      <DataFetchingTwo />
+      {/* <DataFetchingTwo /> */}
+      <firstName.Provider value="Sakil">
+        <lastName.Provider value="Khan">
+          <UserContextA />
+        </lastName.Provider>
+      </firstName.Provider>
     </div>
   );
 }

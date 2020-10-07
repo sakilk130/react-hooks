@@ -13,11 +13,10 @@ function DataFetchingTwo() {
       .catch((error) => {
         console.log(error);
       });
-  });
+  }, [id]);
   return (
     <div>
       <h2>
-        {' '}
         Fetching data from--
         <a href="https://jsonplaceholder.typicode.com/">"JSON" Placeholder</a>
       </h2>

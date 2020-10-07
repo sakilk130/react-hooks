@@ -1,4 +1,7 @@
 ## React Hook Basic Practice
-### Learning 
+
+### Learning
+
 - useState
 - useEffect
+- fetchingData using useEffect

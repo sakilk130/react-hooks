@@ -9,6 +9,7 @@ import UseEffectTwo from './components/06_useEffect/UseEffectTwo';
 import UseEffectThree from './components/06_useEffect/UseEffectThree';
 import UseEffectFour from './components/07_useEffect/UseEffectFour';
 import DataFetching from './components/08_dataFetching/DataFetching';
+import DataFetchingTwo from './components/09_dataFetching/DataFetchingTwo';
 
 function App() {
   return (
@@ -29,7 +30,9 @@ function App() {
 
       {/* <UseEffectFour /> */}
 
-      <DataFetching />
+      {/* <DataFetching /> */}
+
+      <DataFetchingTwo />
     </div>
   );
 }

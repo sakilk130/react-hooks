@@ -15,9 +15,7 @@ function DataFetching() {
     <div>
       <h2>
         Fetching data from--
-        <a href="https://jsonplaceholder.typicode.com/" target="_blank">
-          "JSON" Placeholder
-        </a>
+        <a href="https://jsonplaceholder.typicode.com/">"JSON" Placeholder</a>
       </h2>
       <ol>
         {data.map((item) => (

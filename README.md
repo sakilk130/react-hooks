@@ -5,3 +5,4 @@
 - useState
 - useEffect
 - fetchingData using useEffect
+- useContext

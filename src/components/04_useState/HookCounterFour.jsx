@@ -13,7 +13,7 @@ function HookCounterFour() {
   };
   return (
     <div>
-      <h3>Add random numberin array</h3>
+      <h3>Add random number in array</h3>
       <button onClick={addItem}>Add Item</button>
 
       {items.map((item) => (

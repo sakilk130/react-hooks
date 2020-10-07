@@ -10,6 +10,10 @@ function UseEffectTwo() {
   };
   useEffect(() => {
     window.addEventListener('mousemove', logPosition);
+    return () => {
+      console.log('Toggle display');
+      window.removeEventListener('mousemove', logPosition);
+    };
   });
   return (
     <div>

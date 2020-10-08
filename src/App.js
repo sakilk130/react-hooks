@@ -16,6 +16,7 @@ import ReducerTwo from './components/12_useReducer/ReducerTwo';
 import ReducerThree from './components/13_useReducer/ReducerThree';
 import DataFetchingReducer from './components/14_useReducer/DataFetchingReducer';
 import MemoOne from './components/15_useMemo/MemoOne';
+import RefOne from './components/16_useRef/RefOne';
 
 export const firstName = React.createContext();
 export const lastName = React.createContext();
@@ -57,7 +58,9 @@ function App() {
 
       {/* <DataFetchingReducer /> */}
 
-      <MemoOne />
+      {/* <MemoOne /> */}
+
+      <RefOne />
     </div>
   );
 }

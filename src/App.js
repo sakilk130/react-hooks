@@ -14,6 +14,7 @@ import UserContextA from './components/10_useContext/UserContextA';
 import ReducerOne from './components/11_useReducer/ReducerOne';
 import ReducerTwo from './components/12_useReducer/ReducerTwo';
 import ReducerThree from './components/13_useReducer/ReducerThree';
+import DataFetchingReducer from './components/14_useReducer/DataFetchingReducer';
 
 export const firstName = React.createContext();
 export const lastName = React.createContext();
@@ -51,7 +52,9 @@ function App() {
 
       {/* <ReducerTwo /> */}
 
-      <ReducerThree />
+      {/* <ReducerThree /> */}
+
+      <DataFetchingReducer />
     </div>
   );
 }

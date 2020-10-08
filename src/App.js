@@ -11,6 +11,7 @@ import UseEffectFour from './components/07_useEffect/UseEffectFour';
 import DataFetching from './components/08_dataFetching/DataFetching';
 import DataFetchingTwo from './components/09_dataFetching/DataFetchingTwo';
 import UserContextA from './components/10_useContext/UserContextA';
+import ReducerOne from './components/11_useReducer/ReducerOne';
 
 export const firstName = React.createContext();
 export const lastName = React.createContext();
@@ -37,11 +38,14 @@ function App() {
       {/* <DataFetching /> */}
 
       {/* <DataFetchingTwo /> */}
-      <firstName.Provider value="Sakil">
+
+      {/* <firstName.Provider value="Sakil">
         <lastName.Provider value="Khan">
           <UserContextA />
         </lastName.Provider>
-      </firstName.Provider>
+      </firstName.Provider> */}
+
+      <ReducerOne />
     </div>
   );
 }

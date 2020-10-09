@@ -14,7 +14,8 @@ import UseEffectFour from './components/2_useEffect/07_useEffect/UseEffectFour';
 import DataFetching from './components/3_dataFetching/08_dataFetching/DataFetching';
 import DataFetchingTwo from './components/3_dataFetching/09_dataFetching/DataFetchingTwo';
 
-import UserContextA from './components/10_useContext/UserContextA';
+import UserContextA from './components/4_useContext/10_useContext/UserContextA';
+
 import ReducerOne from './components/11_useReducer/ReducerOne';
 import ReducerTwo from './components/12_useReducer/ReducerTwo';
 import ReducerThree from './components/13_useReducer/ReducerThree';
@@ -57,11 +58,11 @@ function App() {
 
       {/* <DataFetchingTwo /> */}
 
-      {/* <firstName.Provider value="Sakil">
+      <firstName.Provider value="Sakil">
         <lastName.Provider value="Khan">
           <UserContextA />
         </lastName.Provider>
-      </firstName.Provider> */}
+      </firstName.Provider>
 
       {/* <ReducerOne /> */}
 

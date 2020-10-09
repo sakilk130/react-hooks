@@ -1,5 +1,5 @@
 import React from 'react';
-import { firstName, lastName } from '../../App';
+import { firstName, lastName } from '../../../App';
 
 function UserContextC() {
   return (

@@ -10,3 +10,4 @@
 - dataFetching using useReducer and useEffect
 - useMemo
 - useRef
+- Custom Hook

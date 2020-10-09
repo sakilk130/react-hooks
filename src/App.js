@@ -22,6 +22,7 @@ import DocTitleOne from './components/18_customHooks/DocTitleOne';
 import DocTitleTwo from './components/18_customHooks/DocTitleTwo';
 import CustomHookOne from './components/19_customHooks/CustomHookOne';
 import CustomHookTwo from './components/19_customHooks/CustomHookTwo';
+import UserForm from './components/20_userInput/UserForm';
 
 export const firstName = React.createContext();
 export const lastName = React.createContext();
@@ -71,8 +72,11 @@ function App() {
 
       {/* <DocTitleOne />
       <DocTitleTwo /> */}
-      <CustomHookOne />
-      <CustomHookTwo />
+
+      {/* <CustomHookOne />
+      <CustomHookTwo /> */}
+
+      <UserForm />
     </div>
   );
 }

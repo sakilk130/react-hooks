@@ -18,6 +18,8 @@ import DataFetchingReducer from './components/14_useReducer/DataFetchingReducer'
 import MemoOne from './components/15_useMemo/MemoOne';
 import RefOne from './components/16_useRef/RefOne';
 import RefTwo from './components/17_useRef/RefTwo';
+import DocTitleOne from './components/18_customHooks/DocTitleOne';
+import DocTitleTwo from './components/18_customHooks/DocTitleTwo';
 
 export const firstName = React.createContext();
 export const lastName = React.createContext();
@@ -63,7 +65,10 @@ function App() {
 
       {/* <RefOne /> */}
 
-      <RefTwo />
+      {/* <RefTwo /> */}
+
+      <DocTitleOne />
+      <DocTitleTwo />
     </div>
   );
 }
